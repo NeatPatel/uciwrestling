@@ -31,7 +31,7 @@ function Nbar() {
                         <span className="mx-1" />
                         <Link to="/schedule" className="nav-link my-auto d-inline-block">Schedule</Link>
                         <span className="mx-1" />
-                        <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="outline-danger">Join Us</Button></Link>
+                        <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="outline-warning">Join Us</Button></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
