@@ -19,7 +19,7 @@ function Nbar() {
     });
 
     return (<>
-        <Navbar id="mainNavBar" onToggle={toggled} expanded={toggle} variant="light" fixed="top" className="mx-4 mb-5 navbar-light bg-light border-primary" expand="lg">
+        <Navbar id="mainNavBar" onToggle={toggled} expanded={toggle} variant="light" fixed="top" className="px-4 mb-5 navbar-light bg-light border-primary" expand="lg">
             <Container fluid>
                 <Navbar.Brand>
                     <Link to="/" className="nav-link"><img src={logo} height="50vh" className="d-inline-block align-self-center" /></Link>
